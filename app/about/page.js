@@ -104,19 +104,19 @@ const page = () => {
           <h3 className="text-[#385723] text-[25px] font-bold ">We serve to</h3>
           <div className="grid grid-flow-row md:grid-flow-col gap-2">
             <span className="text-white bg-[#15A135] py-2 rounded px-4">
-              Homeowners
-            </span>
-            <span className="text-white bg-[#15A135] py-2 rounded px-4">
-              Tenants
+              Landlords
             </span>
             <span className="text-white bg-[#15A135] py-2 rounded px-4">
               Social housing associations
             </span>
             <span className="text-white bg-[#15A135] py-2 rounded px-4">
-              Landlords
+              Property developers
             </span>
             <span className="text-white bg-[#15A135] py-2 rounded px-4">
               Councils
+            </span>
+            <span className="text-white bg-[#15A135] py-2 rounded px-4">
+              Tenants
             </span>
           </div>
         </div>
@@ -175,7 +175,7 @@ const page = () => {
               </strong>{" "}
             </h2>
             <h2 className="text-[#385723] text-[20px] lg:text-[25px] text-center font-bold leading-7 my-5">
-               Panels installed
+              Panels installed
             </h2>
             <p className="text-black text-center">
               Over 15+ panels installed to power your sustainable future
@@ -202,7 +202,7 @@ const page = () => {
               </strong>{" "}
             </h2>
             <h2 className="text-[#385723] text-[25px] text-center font-bold leading-7 my-5">
-             Years of team experience
+              Years of team experience
             </h2>
             <p className="text-black text-center">
               Benefit from our extensive expertise in delivering reliable
@@ -227,9 +227,9 @@ const page = () => {
         </div>
       </section>
 
-    
 
-    
+
+
 
       <TalkAdvisor />
     </>
