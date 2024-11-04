@@ -117,8 +117,7 @@ export default function Home() {
               Home EcoEarner <br className="hidden md:block" /> Power System
             </h1>
             <p className=" text-white ">
-              Ready to get your electricity costs under control and give your
-              self <br className="hidden xl:block" /> the chance to transform your costs into income?
+              Ready to get your electricity costs under control and give yourself <br className="hidden xl:block" /> the chance to transform your costs into income?
             </p>
             <Slider {...verticalSlider}>
               <div className="carousel-item">
@@ -463,7 +462,7 @@ export default function Home() {
       {/* launch banner section screen */}
 
       <section className="w-full bg-white hidden lg:flex">
-        <div className="container mx-auto pt-10">
+        {/* <div className="container mx-auto pt-10">
           <img src="/assets/images/launch-image.svg" className="mx-auto" alt="" />
 
           <Link href="/contact-us"
@@ -471,7 +470,7 @@ export default function Home() {
             Contact Us
           </Link>
 
-        </div>
+        </div> */}
       </section>
       {/* launch banner section tabs */}
 
@@ -479,13 +478,13 @@ export default function Home() {
         <div className="container mx-auto py-10">
           <img src="/assets/images/tab-launch.svg" className="mx-auto" alt="" />
 
-          <Link href="/contact-us"
+          {/* <Link href="/contact-us"
             className="relative overflow-hidden py-3 px-6 bg-[#028921] rounded-3xl mx-auto text-white group  text-center font-bold my-5 flex justify-center w-fit">
             <span className="text-xl relative z-10">
               Contact Us
             </span>
 
-          </Link>
+          </Link> */}
 
         </div>
       </section>
@@ -495,13 +494,13 @@ export default function Home() {
         <div className="container mx-auto py-10">
           <img src="/assets/images/launch-mob.svg" className="mx-auto" alt="" />
 
-          <Link href="/contact-us"
+          {/* <Link href="/contact-us"
             className="relative overflow-hidden py-3 px-6 bg-[#028921] rounded-3xl mx-auto text-white group  text-center font-bold my-5 flex justify-center w-fit">
             <span className="text-xl relative z-10">
               Contact Us
             </span>
 
-          </Link>
+          </Link> */}
 
         </div>
       </section>
@@ -599,14 +598,10 @@ export default function Home() {
         <div className="flex justify-center flex-col  items-center">
           <div className="container mx-auto px-2">
             <h1 className="font-bold text-[35px] md:text-[50px] text-center text-white ">
-              Contact Us
-            </h1>
-            <h1 className="text-white text-center text-lg">
-              Feel free to contact us any time. We will get back to you as soon
-              as we can!{" "}
+              Next Step
             </h1>
             <h1 className="text-white text-center text-lg mt-4">
-              Ask your landlords, home builder, council or housing association how you can get these benefits for your home or business.
+              Ask your landlord, home builder, council or housing association how you can get these benefits for your home or business.
             </h1>
           </div>
           <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 my-10 gap-5 ">

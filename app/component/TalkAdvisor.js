@@ -7,14 +7,10 @@ const TalkAdvisor = () => {
       <section className="hidden md:flex bg-[#00a241] py-20 talk-advisor-bg shadow-inner md:min-h-[310px]">
         <div className="container mx-auto flex justify-center items-center flex-col gap-5 ">
           <h2 className=" text-white  text-2xl lg:text-5xl font-bold">
-            Talk with an advisor
-          </h2>
-          <h2 className="text-[18px] text-white">
-            Feel free to contact us any time. We will get back to you as soon as
-            we can!
+            Next Step
           </h2>
           <h2 className="text-[18px] text-white" >
-            Ask your landlords, home builder, council or housing association how you can get these benefits for your home or business.
+            Ask your landlord, home builder, council or housing association how you can get these benefits for your home or business.
           </h2>
           <Link
             href="/contact-us"
@@ -33,14 +29,10 @@ const TalkAdvisor = () => {
       <section className="flex md:hidden bg-[#00a241] py-20 advisor-mob-bg  shadow-inner md:min-h-[310px]">
         <div className="container mx-auto flex justify-center items-center flex-col gap-5 ">
           <h2 className=" text-white  text-2xl lg:text-5xl font-bold">
-            Talk with an advisor
-          </h2>
-          <h2 className="text-[18px] text-white w-[90%] text-center">
-            Feel free to contact us any time We will get back to you as soon as
-            we can!
+            Next Step
           </h2>
           <h2 className="text-[18px] text-white w-[90%] text-center mt-2">
-            Ask your landlords, home builder, council or housing association how you can get these benefits for your home or business.
+            Ask your landlord, home builder, council or housing association how you can get these benefits for your home or business.
           </h2>
           <Link
             href="/contact-us"

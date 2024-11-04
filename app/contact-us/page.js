@@ -12,13 +12,10 @@ const page = () => {
       <section className="relative product-page-bg min-h-[396px] flex justify-center ">
         <div className=" container mx-auto flex flex-col justify-center items-center">
           <h1 className="text-[25px] lg:text-[60px] text-center text-white font-bold block">
-            Need to get in touch with us?
+            Next Step
           </h1>
           <h2 className="w-[90%] md:w-1/2 text-base text-center font-semibold text-white mx-auto">
-            We’d love to hear from you! Whether you have questions about our
-            solar panels, need support with your existing system, or want to
-            learn more about how solar energy can benefit your home, our team is
-            here to help.
+          Ask your landlord, home builder, council or housing association how you can get these benefits for your home or business.
           </h2>
         </div>
       </section>
